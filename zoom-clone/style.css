@@ -1,0 +1,132 @@
+body{
+    background-color: #202124;
+}
+
+.team-meeting{
+    color: white;
+    font-size: 18px;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    /* Style for the video container */
+  }
+  
+
+  .footer {
+    background-color: #202124;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .column.left {
+    text-align: left;
+  }
+  
+  .column.right {
+    text-align: right;
+  }
+
+
+
+  
+  .icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .icon-list li {
+    margin: 8px 10px;
+  }
+  
+  .icon-list li i {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .icon-list-2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    justify-content: right;
+  }
+
+  .icon-list-2 li {
+    margin: 8px 10px;
+  }
+  
+  .icon-list-2 li i {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .hang-up {
+    color: #f00;
+  }
+
+
+  .icon-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #3C4043ed;
+  }
+  
+
+  .hangup-circle{
+    height: 40px;
+    width: 65px;
+    border-radius: 30px;
+    margin-right: 20px;
+    background-color: red;
+  }
+  
+  
+  
+
+  
+
+
+  .card {
+    width: 405px;
+    height: 255px;
+    background-image: url('https://via.placeholder.com/300x200');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .card-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+
